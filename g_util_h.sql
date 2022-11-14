@@ -6,8 +6,7 @@ create or replace package g_util is
 
   function format_moeda(
     p_value number,
-    p_decimal_places number,
-    p_pattern varchar2
+    p_decimal_places number
   ) return varchar2;
 
 end;
